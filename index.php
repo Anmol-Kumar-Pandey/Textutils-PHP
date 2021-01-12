@@ -81,12 +81,12 @@
 </div>
 
 <!--PHP Algorithm--> <!--Working But the only problem is unexpected error-->
-<div class="container mt-2">
+<div class="container mt-2 border shadow p-3 mb-5 bg-white rounded">
 <?php
     if ($_SERVER['REQUEST_METHOD']=='POST') {
         # code...
         $text = $_POST["para"];
-
+      echo "<h3>Output:)</h3>";
         if (isset($_POST['show'])) {
             # code...
             echo $text;
