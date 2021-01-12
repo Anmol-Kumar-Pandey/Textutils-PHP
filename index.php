@@ -47,7 +47,7 @@
         <form action="index.php" method="POST">
         <div class="mt-3">
             <label for="text"><h3>Enter your text here :)</h3></label>
-            <textarea name="para" id="text" cols="140" rows="5"></textarea><br>
+            <textarea class="form-control" name="para" id="text" cols="140" rows="5"></textarea><br>
             <div class="form-check form-switch">
             <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" name="show" value="value1">
             <label class="form-check-label" for="flexSwitchCheckDefault">Show Text</label>
